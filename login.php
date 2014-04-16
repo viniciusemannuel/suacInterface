@@ -3,7 +3,7 @@
   
 <head>
     <meta charset="utf-8">
-    <title>Login - Bootstrap Admin Template</title>
+    <title>Tela de login</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes"> 
@@ -33,30 +33,11 @@
 				<span class="icon-bar"></span>
 			</a>
 			
-			<a class="brand" href="index.html">
-				Bootstrap Admin Template				
+			<a class="brand">
+				Sistema Único de Assistência ao CRAS - SUAC				
 			</a>		
 			
-			<div class="nav-collapse">
-				<ul class="nav pull-right">
-					
-					<li class="">						
-						<a href="signup.html" class="">
-							Don't have an account?
-						</a>
-						
-					</li>
-					
-					<li class="">						
-						<a href="index.html" class="">
-							<i class="icon-chevron-left"></i>
-							Back to Homepage
-						</a>
-						
-					</li>
-				</ul>
-				
-			</div><!--/.nav-collapse -->	
+			
 	
 		</div> <!-- /container -->
 		
@@ -64,15 +45,13 @@
 	
 </div> <!-- /navbar -->
 
-
-
 <div class="account-container">
-	
-	<div class="content clearfix">
-		
-		<form action="#" method="post">
-		
-			<h1>Member Login</h1>		
+
+		<div class="content clearfix">
+
+		<form action="index.php" method="post">
+
+			<h1>Tela de login</h1>		
 			
 			<div class="login-fields">
 				
@@ -80,12 +59,12 @@
 				
 				<div class="field">
 					<label for="username">Username</label>
-					<input type="text" id="username" name="username" value="" placeholder="Username" class="login username-field" />
+					<input type="text" id="username" name="username" value="" placeholder="Usuário" class="login username-field" />
 				</div> <!-- /field -->
 				
 				<div class="field">
 					<label for="password">Password:</label>
-					<input type="password" id="password" name="password" value="" placeholder="Password" class="login password-field"/>
+					<input type="password" id="password" name="password" value="" placeholder="Senha" class="login password-field"/>
 				</div> <!-- /password -->
 				
 			</div> <!-- /login-fields -->
@@ -94,11 +73,11 @@
 				
 				<span class="login-checkbox">
 					<input id="Field" name="Field" type="checkbox" class="field login-checkbox" value="First Choice" tabindex="4" />
-					<label class="choice" for="Field">Keep me signed in</label>
+					<label class="choice" for="Field">Mantenha-me conectado</label>
 				</span>
-									
-				<button class="button btn btn-success btn-large">Sign In</button>
-				
+				<a href="login.php">					
+					<button class="button btn btn-success btn-large" type="submit">Logar</button>
+				</a>
 			</div> <!-- .actions -->
 			
 			
@@ -110,10 +89,6 @@
 </div> <!-- /account-container -->
 
 
-
-<div class="login-extra">
-	<a href="#">Reset Password</a>
-</div> <!-- /login-extra -->
 
 
 <script src="js/jquery-1.7.2.min.js"></script>
