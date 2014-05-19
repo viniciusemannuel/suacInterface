@@ -1,324 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
-    <meta charset="utf-8">
-    <title>FAQ - Bootstrap Admin Template</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">    
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    
-    <link href="css/style.css" rel="stylesheet">
-    
-    
-    <link href="css/pages/faq.css" rel="stylesheet"> 
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
+<meta charset="utf-8">
+<title>Dashboard - SUAC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600"
+        rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/pages/dashboard.css" rel="stylesheet">
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
-
+</head>
 <body>
 
-<div class="navbar navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container">
-			
-			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</a>
-			
-			<a class="brand" href="index.html">
-				Bootstrap Admin Template				
-			</a>		
-			
-			<div class="nav-collapse">
-				<ul class="nav pull-right">
-					<li class="dropdown">						
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="icon-cog"></i>
-							Account
-							<b class="caret"></b>
-						</a>
-						
-						<ul class="dropdown-menu">
-							<li><a href="javascript:;">Settings</a></li>
-							<li><a href="javascript:;">Help</a></li>
-						</ul>						
-					</li>
-			
-					<li class="dropdown">						
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							<i class="icon-user"></i> 
-							EGrappler.com
-							<b class="caret"></b>
-						</a>
-						
-						<ul class="dropdown-menu">
-							<li><a href="javascript:;">Profile</a></li>
-							<li><a href="javascript:;">Logout</a></li>
-						</ul>						
-					</li>
-				</ul>
-			
-				<form class="navbar-search pull-right">
-					<input type="text" class="search-query" placeholder="Search">
-				</form>
-				
-			</div><!--/.nav-collapse -->	
-	
-		</div> <!-- /container -->
-		
-	</div> <!-- /navbar-inner -->
-	
-</div> <!-- /navbar -->
-    
+
+  <?php
+
+  /* Menu principal */
+
+  include_once('top.php');
+
+  ?>
+
+  
+  <?php
+
+  /* Menu principal */
+
+  include_once('navbar.php');
+
+  ?>
 
 
-
-    
-<div class="subnavbar">
-
-	<div class="subnavbar-inner">
-	
-		<div class="container">
-
-			<ul class="mainnav">
-			
-				<li>
-					<a href="index.html">
-						<i class="icon-dashboard"></i>
-						<span>Dashboard</span>
-					</a>	    				
-				</li>
-				
-				
-				
-				<li>
-					<a href="reports.html">
-						<i class="icon-list-alt"></i>
-						<span>Reports</span>
-					</a>    				
-				</li>
-				
-				<li>					
-					<a href="guidely.html">
-						<i class="icon-facetime-video"></i>
-						<span>App Tour</span>
-					</a>  									
-				</li>
-                
-                
-                <li>					
-					<a href="charts.html">
-						<i class="icon-bar-chart"></i>
-						<span>Charts</span>
-					</a>  									
-				</li>
-                
-                
-                <li>					
-					<a href="shortcodes.html">
-						<i class="icon-code"></i>
-						<span>Shortcodes</span>
-					</a>  									
-				</li>
-				
-				<li class="active dropdown">					
-					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="icon-long-arrow-down"></i>
-						<span>Drops</span>
-						<b class="caret"></b>
-					</a>	
-				
-					<ul class="dropdown-menu">
-                    	<li><a href="icons.html">Icons</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-                        <li><a href="pricing.html">Pricing Plans</a></li>
-                        <li><a href="login.html">Login</a></li>
-						<li><a href="signup.html">Signup</a></li>
-						<li><a href="error.html">404</a></li>
-                    </ul>    				
-				</li>
-			
-			</ul>
-
-		</div> <!-- /container -->
-	
-	</div> <!-- /subnavbar-inner -->
-
-</div> <!-- /subnavbar -->
-    
-    
+<!-- /subnavbar -->
 <div class="main">
-	
-	<div class="main-inner">
-
-	    <div class="container">
-	
-    	<div class="row">
-    	<div class="span12">
-						
-				<div class="widget widget-plain">
-					
-					<div class="widget-content">
-						
-						<a href="javascript:;" class="btn btn-large btn-success btn-support-ask">Ask A Question</a>	
-						
-						
-					</div> <!-- /widget-content -->
-						
-				</div> <!-- /widget -->
-				
-				
-				
-			</div> <!-- /span12 -->
-         </div>	
-    
-	      <div class="row">
-	      	
-	      	<div class="span12">
-	      		
-	      		<div class="widget">
-						
-					<div class="widget-header">
-						<i class="icon-pushpin"></i>
-						<h3>Sample Frequently Asked Questions</h3>
-					</div> <!-- /widget-header -->
-					
-					<div class="widget-content">
-						
-						<h3>Search</h3>
-						
-						<br />
-						
-						<ol class="faq-list">
-							
-							<li>
-									<h4>When I visit the free sample calendar it still says “Check back soon for today's free sample”- Why is that?</h4>
-									<p>If you are seeing the "Check back soon" message it is because we either have not yet posted today’s sample find or your Internet browser has saved that image on your computer. Browsers often do this to increase their speed and efficiency for websites you visit often. We post a daily free sample find every morning between 9 and 10 AM. If you still see the “Check back” message at that time, try refreshing your Internet browser or close your browser completely then reopen it again.
-
-</p>	
-									
-							</li>
-							
-							<li>
-									<h4>When I went to request the sample it said they were out or that I didn’t qualify to get the sample.</h4>
-									<p>We sometimes offer exclusive free samples through allyou.com, but often we are scouting out other free samples being offered by other companies. Since most of these samples have no affiliation with All You, we make sure to the best of our ability the requesting process is simple and strait-forward before we post the sample. We want you to trust the sites we find and know they are legitimate, however, since these are not All You sites, we cannot control the quantity of samples, length of the offer or changes to the qualifications for receiving the sample after we post our daily find.
-
-</p>	
-									
-							</li>
-							
-							<li>
-								
-									<h4>The free sample site won't work for me.
-
-</h4>
-									<p>Sometimes theses sites are built with a program called Flash or may have pop-up windows (or both). Make sure you have the Macromedia Flash plug in (it’s a free update that most newer browsers come with, but not all) and you do not block pop-up windows.
-
-</p>	
-									 
-							</li>
-							
-							<li>
-									<h4>I don't have a Facebook account and cannot accept Facebook offers. Why do I have to “Like” a company on Facebook to get the sample?
-
-</h4>
-									<p>We strive to find the best free sample offers from around the Web every day and sometimes those samples are found on Facebook. We in no way want to alienate our readers who choose not to use Facebook, but many companies and brands use Facebook as a means of communicating with their audience and to distribute their free samples.
-
-</p>	
-									<p>We strive to find the best free sample offers from around the Web every day and sometimes those samples are found on Facebook. We in no way want to alienate our readers who choose not to use Facebook, but many companies and brands use Facebook as a means of communicating with their audience and to distribute their free samples.
-
-</p>	
-									
-							</li>
-							
-							<li>
-								
-									<h4>I don't want give my phone number to request a sample.
-
-</h4>
-									<p>Most sample sites we promote don't require a phone number but occasionally they do. You should only give the personal information you feel comfortable providing.
-
-</p>	
-									
-							</li>
-							
-							<li>
-									<h4>I don't want to have my email inbox overrun with newsletters, offers and possibly spam.
-
-</h4>
-									<p>We suggest opening a free email account (through Yahoo or Gmail) to use just for entering online sweeps and requesting free samples.
-
-</p>	
-
-<p>We suggest opening a free email account (through Yahoo or Gmail) to use just for entering online sweeps and requesting free samples.
-
-</p>	
-
-<p>We suggest opening a free email account (through Yahoo or Gmail) to use just for entering online sweeps and requesting free samples.
-
-</p>	
-									
-							</li>
-							
-							<li>
-								
-									<h4>I can’t see the free sample calendar.
-
-</h4>
-									<p>If you cannot see the free sample calendar at all, it may be because you do not have JavaScript enabled in your browser’s preferences. You can change this in your browser set up.
-
-</p>	
-									
-							</li>
-							
-					
-							
-							
-							
-						</ol>
-						
-						
-					</div> <!-- /widget-content -->
-						
-				</div> <!-- /widget -->	
-				
-		    </div> <!-- /spa12 -->
-		    
-		    
-		    
-		    
-	      	
-	      	
-	      	
-	      </div> <!-- /row -->
-	
-	    </div> <!-- /container -->
-    
-	</div> <!-- /main-inner -->
-	    
-</div> <!-- /main -->
-    
-
-
+  <div class="main-inner">
+    <div class="container">
+      <div class="row">
+        <div class="span6">
+          <div class="widget widget-nopad">
+            <div class="widget-header"> <i class="icon-list-alt"></i>
+              <h3> Today's Stats</h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <div class="widget big-stats-container">
+                <div class="widget-content">
+                  <h6 class="bigstats">A fully responsive premium quality admin template built on Twitter Bootstrap by <a href="http://www.egrappler.com" target="_blank">EGrappler.com</a>.  These are some dummy lines to fill the area.</h6>
+                  <div id="big_stats" class="cf">
+                    <div class="stat"> <i class="icon-anchor"></i> <span class="value">851</span> </div>
+                    <!-- .stat -->
+                    
+                    <div class="stat"> <i class="icon-thumbs-up-alt"></i> <span class="value">423</span> </div>
+                    <!-- .stat -->
+                    
+                    <div class="stat"> <i class="icon-twitter-sign"></i> <span class="value">922</span> </div>
+                    <!-- .stat -->
+                    
+                    <div class="stat"> <i class="icon-bullhorn"></i> <span class="value">25%</span> </div>
+                    <!-- .stat --> 
+                  </div>
+                </div>
+                <!-- /widget-content --> 
+                
+              </div>
+            </div>
+          </div>
+          <!-- /widget -->
+          <div class="widget widget-nopad">
+            <div class="widget-header"> <i class="icon-list-alt"></i>
+              <h3> Recent News</h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <div id='calendar'>
+              </div>
+            </div>
+            <!-- /widget-content --> 
+          </div>
+          <!-- /widget --> 
+        </div>
+        <!-- /span6 -->
+        <div class="span6">
+          <div class="widget">
+            <div class="widget-header"> <i class="icon-bookmark"></i>
+              <h3>Principais funcionalidades</h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <div class="shortcuts"> <a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-list-alt"></i><span
+                                        class="shortcut-label">Apps</span> </a><a href="javascript:;" class="shortcut"><i
+                                            class="shortcut-icon icon-bookmark"></i><span class="shortcut-label">Bookmarks</span> </a><a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-signal"></i> <span class="shortcut-label">Reports</span> </a><a href="javascript:;" class="shortcut"> <i class="shortcut-icon icon-comment"></i><span class="shortcut-label">Comments</span> </a><a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-user"></i><span
+                                                class="shortcut-label">Users</span> </a><a href="javascript:;" class="shortcut"><i
+                                                    class="shortcut-icon icon-file"></i><span class="shortcut-label">Notes</span> </a><a href="javascript:;" class="shortcut"><i class="shortcut-icon icon-picture"></i> <span class="shortcut-label">Photos</span> </a><a href="javascript:;" class="shortcut"> <i class="shortcut-icon icon-tag"></i><span class="shortcut-label">Tags</span> </a> </div>
+              <!-- /shortcuts --> 
+            </div>
+            <!-- /widget-content --> 
+          </div>
+          <!-- /widget -->
+          <div class="widget">
+            <div class="widget-header"> <i class="icon-signal"></i>
+              <h3> Area Chart Example</h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <canvas id="area-chart" class="chart-holder" height="250" width="538"> </canvas>
+              <!-- /area-chart --> 
+            </div>
+            <!-- /widget-content --> 
+          </div>
+          <!-- /widget -->
+          <div class="widget widget-table action-table">
+            <div class="widget-header"> <i class="icon-th-list"></i>
+              <h3>A Table Example</h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <table class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th> Free Resource </th>
+                    <th> Download</th>
+                    <th class="td-actions"> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> Fresh Web Development Resources </td>
+                    <td> http://www.egrappler.com/ </td>
+                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                  </tr>
+                  <tr>
+                    <td> Fresh Web Development Resources </td>
+                    <td> http://www.egrappler.com/ </td>
+                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                  </tr>
+                  <tr>
+                    <td> Fresh Web Development Resources </td>
+                    <td> http://www.egrappler.com/ </td>
+                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                  </tr>
+                  <tr>
+                    <td> Fresh Web Development Resources </td>
+                    <td> http://www.egrappler.com/ </td>
+                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                  </tr>
+                  <tr>
+                    <td> Fresh Web Development Resources </td>
+                    <td> http://www.egrappler.com/ </td>
+                    <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
+                  </tr>
+                
+                </tbody>
+              </table>
+            </div>
+            <!-- /widget-content --> 
+          </div>
+          <!-- /widget --> 
+          <div class="widget widget-nopad">
+            <div class="widget-header"> <i class="icon-list-alt"></i>
+              <h3> Recent News</h3>
+            </div>
+            <!-- /widget-header -->
+            <div class="widget-content">
+              <ul class="news-items">
+                <li>
+                  
+                  <div class="news-item-date"> <span class="news-item-day">29</span> <span class="news-item-month">Aug</span> </div>
+                  <div class="news-item-detail"> <a href="http://www.egrappler.com/thursday-roundup-40/" class="news-item-title" target="_blank">Thursday Roundup # 40</a>
+                    <p class="news-item-preview"> This is our web design and development news series where we share our favorite design/development related articles, resources, tutorials and awesome freebies. </p>
+                  </div>
+                  
+                </li>
+                <li>
+                  
+                  <div class="news-item-date"> <span class="news-item-day">15</span> <span class="news-item-month">Jun</span> </div>
+                  <div class="news-item-detail"> <a href="http://www.egrappler.com/retina-ready-responsive-app-landing-page-website-template-app-landing/" class="news-item-title" target="_blank">Retina Ready Responsive App Landing Page Website Template – App Landing</a>
+                    <p class="news-item-preview"> App Landing is a retina ready responsive app landing page website template perfect for software and application developers and small business owners looking to promote their iPhone, iPad, Android Apps and software products.</p>
+                  </div>
+                  
+                </li>
+                <li>
+                  
+                  <div class="news-item-date"> <span class="news-item-day">29</span> <span class="news-item-month">Oct</span> </div>
+                  <div class="news-item-detail"> <a href="http://www.egrappler.com/open-source-jquery-php-ajax-contact-form-templates-with-captcha-formify/" class="news-item-title" target="_blank">Open Source jQuery PHP Ajax Contact Form Templates With Captcha: Formify</a>
+                    <p class="news-item-preview"> Formify is a contribution to lessen the pain of creating contact forms. The collection contains six different forms that are commonly used. These open source contact forms can be customized as well to suit the need for your website/application.</p>
+                  </div>
+                  
+                </li>
+              </ul>
+            </div>
+            <!-- /widget-content --> 
+          </div>
+          <!-- /widget -->
+        </div>
+        <!-- /span6 --> 
+      </div>
+      <!-- /row --> 
+    </div>
+    <!-- /container --> 
+  </div>
+  <!-- /main-inner --> 
+</div>
+<!-- /main -->
 <div class="extra">
-
-	<div class="extra-inner">
-
-		<div class="container">
-
-			<div class="row">
+  <div class="extra-inner">
+    <div class="container">
+      <div class="row">
                     <div class="span3">
                         <h4>
                             About Free Admin Template</h4>
@@ -362,56 +256,158 @@
                         </ul>
                     </div>
                     <!-- /span3 -->
-                </div> <!-- /row -->
-
-		</div> <!-- /container -->
-
-	</div> <!-- /extra-inner -->
-
-</div> <!-- /extra -->
-
-
-    
-    
+                </div>
+      <!-- /row --> 
+    </div>
+    <!-- /container --> 
+  </div>
+  <!-- /extra-inner --> 
+</div>
+<!-- /extra -->
 <div class="footer">
-	
-	<div class="footer-inner">
-		
-		<div class="container">
-			
-			<div class="row">
-				
-    			<div class="span12">
-    				&copy; 2013 <a href="http://www.egrappler.com/">Bootstrap Responsive Admin Template</a>.
-    			</div> <!-- /span12 -->
-    			
-    		</div> <!-- /row -->
-    		
-		</div> <!-- /container -->
-		
-	</div> <!-- /footer-inner -->
-	
-</div> <!-- /footer -->
-    
-
+  <div class="footer-inner">
+    <div class="container">
+      <div class="row">
+        <div class="span12"> &copy; 2014 <a href="#">Equipe SUAC de desenvolvimento</a>. </div>
+        <!-- /span12 --> 
+      </div>
+      <!-- /row --> 
+    </div>
+    <!-- /container --> 
+  </div>
+  <!-- /footer-inner --> 
+</div>
+<!-- /footer --> 
 <!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-1.7.2.min.js"></script>
-
+================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="js/jquery-1.7.2.min.js"></script> 
+<script src="js/excanvas.min.js"></script> 
+<script src="js/chart.min.js" type="text/javascript"></script> 
 <script src="js/bootstrap.js"></script>
-<script src="js/base.js"></script>
-<script src="js/faq.js"></script>
+<script language="javascript" type="text/javascript" src="js/full-calendar/fullcalendar.min.js"></script>
+ 
+<script src="js/base.js"></script> 
+<script>     
 
-<script>
+        var lineChartData = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [
+				{
+				    fillColor: "rgba(220,220,220,0.5)",
+				    strokeColor: "rgba(220,220,220,1)",
+				    pointColor: "rgba(220,220,220,1)",
+				    pointStrokeColor: "#fff",
+				    data: [65, 59, 90, 81, 56, 55, 40]
+				},
+				{
+				    fillColor: "rgba(151,187,205,0.5)",
+				    strokeColor: "rgba(151,187,205,1)",
+				    pointColor: "rgba(151,187,205,1)",
+				    pointStrokeColor: "#fff",
+				    data: [28, 48, 40, 19, 96, 27, 100]
+				}
+			]
 
-$(function () {
-	
-	$('.faq-list').goFaq ();
+        }
 
-});
+        var myLine = new Chart(document.getElementById("area-chart").getContext("2d")).Line(lineChartData);
 
-</script>
-  </body>
 
+        var barChartData = {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [
+				{
+				    fillColor: "rgba(220,220,220,0.5)",
+				    strokeColor: "rgba(220,220,220,1)",
+				    data: [65, 59, 90, 81, 56, 55, 40]
+				},
+				{
+				    fillColor: "rgba(151,187,205,0.5)",
+				    strokeColor: "rgba(151,187,205,1)",
+				    data: [28, 48, 40, 19, 96, 27, 100]
+				}
+			]
+
+        }    
+
+        $(document).ready(function() {
+        var date = new Date();
+        var d = date.getDate();
+        var m = date.getMonth();
+        var y = date.getFullYear();
+        var calendar = $('#calendar').fullCalendar({
+          header: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'month,agendaWeek,agendaDay'
+          },
+          selectable: true,
+          selectHelper: true,
+          select: function(start, end, allDay) {
+            var title = prompt('Event Title:');
+            if (title) {
+              calendar.fullCalendar('renderEvent',
+                {
+                  title: title,
+                  start: start,
+                  end: end,
+                  allDay: allDay
+                },
+                true // make the event "stick"
+              );
+            }
+            calendar.fullCalendar('unselect');
+          },
+          editable: true,
+          events: [
+            {
+              title: 'All Day Event',
+              start: new Date(y, m, 1)
+            },
+            {
+              title: 'Long Event',
+              start: new Date(y, m, d+5),
+              end: new Date(y, m, d+7)
+            },
+            {
+              id: 999,
+              title: 'Repeating Event',
+              start: new Date(y, m, d-3, 16, 0),
+              allDay: false
+            },
+            {
+              id: 999,
+              title: 'Repeating Event',
+              start: new Date(y, m, d+4, 16, 0),
+              allDay: false
+            },
+            {
+              title: 'Meeting',
+              start: new Date(y, m, d, 10, 30),
+              allDay: false
+            },
+            {
+              title: 'Lunch',
+              start: new Date(y, m, d, 12, 0),
+              end: new Date(y, m, d, 14, 0),
+              allDay: false
+            },
+            {
+              title: 'Birthday Party',
+              start: new Date(y, m, d+1, 19, 0),
+              end: new Date(y, m, d+1, 22, 30),
+              allDay: false
+            },
+            {
+              title: 'EGrappler.com',
+              start: new Date(y, m, 28),
+              end: new Date(y, m, 29),
+              url: 'http://EGrappler.com/'
+            }
+          ]
+        });
+      });
+    </script><!-- /Calendar -->
+</body>
 </html>

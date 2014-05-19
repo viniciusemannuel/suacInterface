@@ -15,7 +15,7 @@
                             class="icon-user"></i> Marcos Ellys <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="javascript:;">Perfil</a></li>
-              <li><a href="login.php">Logout</a></li>
+              <li><a href="login.php">Sair</a></li>
             </ul>
           </li>
         </ul>
