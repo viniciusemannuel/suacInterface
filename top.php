@@ -5,13 +5,6 @@
       <div class="nav-collapse">
         <ul class="nav pull-right">
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                            class="icon-cog"></i> Ajustes <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="javascript:;">Configurações</a></li>
-              <li><a href="javascript:;">Ajuda</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
                             class="icon-user"></i> Assistente Social <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#">Perfil</a></li>

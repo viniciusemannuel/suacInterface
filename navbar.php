@@ -10,7 +10,7 @@
           <i class=" icon-group"></i><span>Assistência CRAS</span> <b class="caret"></b></a>
 
           <ul class="dropdown-menu">
-            <li><a href="pessoaref.php">Cadastrar Pessoa referênciada</a></li>
+            <li><a href="pessoaref.php">Pessoas referênciadas</a></li>
             <li><a href="#">Cadastrar família</a></li>
             <li><a href="agendamento.php">Agendar atendimento</a></li>
           </ul>
@@ -33,9 +33,9 @@
           <i class="icon-list-alt"></i><span>Relatórios</span> <b class="caret"></b></a>
 
           <ul class="dropdown-menu">
-            <li><a href="icons.php">Famílias cadastradas</a></li>
-            <li><a href="icons.php">Famílias assistenciadas</a></li>
-            <li><a href="faq.php">Atendimentos realizados</a></li>
+            <li><a href="#">Famílias cadastradas</a></li>
+            <li><a href="#">Famílias assistenciadas</a></li>
+            <li><a href="#">Atendimentos realizados</a></li>
           </ul>
         </li>
         

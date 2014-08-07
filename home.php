@@ -45,8 +45,8 @@
       <div class="row">
         <div class="span6">
           <div class="widget widget-nopad">
-            <div class="widget-header"> <i class="icon-list-alt"></i>
-              <h3> Estatus do sistema</h3>
+            <div class="widget-header"> <i class="icon-bar-chart"></i>
+              <h3> Status do sistema</h3>
             </div>
             <!-- /widget-header -->
             <div class="widget-content">
@@ -55,7 +55,7 @@
                   <h6 class="bigstats">Dados importantes da ultilização do sistema, para mais
                   	informações acesse as seções.</h6>
                   <div id="big_stats" class="cf">
-                    <div class="stat"> <i class="icon-group"></i> <span class="value">20</span> </div>
+                    <div class="stat"> <i class="icon-group"></i> <span class="value">7</span> </div>
                     <!-- .stat -->
                     
                     
