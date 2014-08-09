@@ -38,6 +38,25 @@
 				<!-- /container -->
 
 				<div class="container">
+					
+					
+					<div class="row">
+						<div class="span12">
+
+							<ol class="breadcrumb">
+								<li>
+									<a href="/suac/home.php"><i class="icon-dashboard"></i> Home</a>
+								</li>
+								<li>
+									/  <i class="icon-tasks"></i> Agendar atendimento
+								</li>
+							</ol>
+
+						</div>
+					</div>
+					
+					<br>
+					
 
 					<div class="row">
 
@@ -46,7 +65,7 @@
 							<div class="widget">
 
 								<div class="widget-header">
-									<i class="icon-user"></i>
+									<i class="icon-tasks"></i>
 									<h3>Agendar atendimento</h3>
 								</div>
 								<!-- /widget-header -->
@@ -144,4 +163,11 @@
 		<script language="javascript" type="text/javascript" src="js/full-calendar/fullcalendar.min.js"></script>
 
 	</body>
+
+<?php
+
+		/* Rodapé do site */
+
+		include_once ('footer.php');
+		?>
 </html>

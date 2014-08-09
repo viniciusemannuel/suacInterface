@@ -7,15 +7,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
 
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
-		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="../css/font-awesome.css" rel="stylesheet">
 
-		<link href="css/style.css" rel="stylesheet">
+		<link href="../css/style.css" rel="stylesheet">
 
-		<link href="css/pages/faq.css" rel="stylesheet">
+		<link href="../css/pages/faq.css" rel="stylesheet">
+
+		<script src="../js/jquery-1.7.2.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/base.js"></script>
+		<script src="../js/faq.js"></script>
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -26,14 +31,14 @@
 
 		<?php /* Menu principal */
 
-	include_once ('top.php');
+	include_once ('../top.php');
 		?>
 
 		<?php
 
 		/* Menu principal */
 
-		include_once ('navbar.php');
+		include_once ('../navbar.php');
 		?>
 
 		<!-- /subnavbar -->
@@ -43,6 +48,24 @@
 				<!-- /container -->
 
 				<div class="container">
+					
+					
+		<div class="row">
+	     	<div class="span12">
+	     		
+	     		
+	     		<ol class="breadcrumb">
+	              <li><a href="/suac/home.php"><i class="icon-dashboard"></i> Home</a></li>
+	              <li class="active">  /  <i class="icon-group"></i> Pessoas referênciadas</li>
+	            </ol>
+	            
+	            
+	     	</div>
+     </div>
+     
+     <br>
+     
+     
 
 					<div class="row">
 						<div class="span12">
@@ -51,14 +74,13 @@
 
 								<div class="widget-content">
 
-									<a href="cadpessoaref.php" class="btn btn-large btn-success btn-support-ask">Adicionar Pessoa referênciada</a>
+									<a href="cadastrar.php" class="btn btn-large btn-success btn-support-ask"> Cadastrar pessoa referênciada </a>
 
 								</div>
-								<!-- /widget-content -->
 
 							</div>
 
-						</div><!-- /span12 -->
+						</div>
 					</div>
 
 					<div class="row">
@@ -85,15 +107,20 @@
 												<td> Raimundo Ananias </td>
 												<td> Ananias </td>
 												<td class="td-actions">
-												<button class="btn btn-info">
-													Ver
-												</button>
+													<a href="ver.php">
+													<button class="btn btn-info">
+															Ver
+													</button>
+													</a>
+													<a href="alterar.php">
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
+												</a>
 												<button class="btn btn-danger">
 													Excluir
-												</button></td>
+												</button>
+												</td>
 											</tr>
 											<tr>
 												<td> Francisca Maria Gomes </td>
@@ -103,7 +130,7 @@
 													Ver
 												</button>
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
 												<button class="btn btn-danger">
 													Excluir
@@ -117,7 +144,7 @@
 													Ver
 												</button>
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
 												<button class="btn btn-danger">
 													Excluir
@@ -131,7 +158,7 @@
 													Ver
 												</button>
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
 												<button class="btn btn-danger">
 													Excluir
@@ -145,7 +172,7 @@
 													Ver
 												</button>
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
 												<button class="btn btn-danger">
 													Excluir
@@ -159,7 +186,7 @@
 													Ver
 												</button>
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
 												<button class="btn btn-danger">
 													Excluir
@@ -173,7 +200,7 @@
 													Ver
 												</button>
 												<button class="btn btn-warning">
-													Editar
+													Alterar
 												</button>
 												<button class="btn btn-danger">
 													Excluir
@@ -197,33 +224,18 @@
 			</div>
 		</div>
 
-		</div>
-
-		</div>
-
-		</div>
-		<!-- /main-inner -->
-		</div>
 		<!-- /main -->
 		<!-- /extra -->
 		<!-- Le javascript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="js/jquery-1.7.2.min.js"></script>
 
-		<script src="js/bootstrap.js"></script>
-		<script src="js/base.js"></script>
-		<script src="js/faq.js"></script>
+		<?php
 
+		/* Menu principal */
 
-		
-		 <?php
-
-  /* Menu principal */
-
-  include_once('footer.php');
-
-  ?>
+		include_once ('../footer.php');
+		?>
 
 	</body>
 </html>
