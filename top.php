@@ -12,7 +12,7 @@
 						class="icon-user"></i> Assistente Social <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li>
-								<a href="#">Perfil</a>
+								<a href="perfil.php">Perfil</a>
 							</li>
 							<li>
 								<a href="index.php">Sair</a>

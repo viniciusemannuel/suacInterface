@@ -79,7 +79,7 @@
 											<fieldset>
 
 												<div class="control-group">
-													<label class="control-label" for="email">Pessoa referênciada:</label>
+													<label class="control-label">Pessoa referênciada:</label>
 													<div class="controls">
 
 														<select class="span7">
