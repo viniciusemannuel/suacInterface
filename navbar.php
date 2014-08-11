@@ -21,6 +21,12 @@
         		<i class="icon-list-alt"></i><span>Relatórios</span>        		
         	</a>
         </li>
+        
+        <li>
+        	<a href="/suac/help/">
+        		<i class="icon-facetime-video"></i><span>Ajuda</span>        		
+        	</a>
+        </li>
                     
       </ul>
     </div>

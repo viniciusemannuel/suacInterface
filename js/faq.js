@@ -105,13 +105,13 @@
 		function generateEmptySearch () {
 			var $empty = $('<div>', { 'class': 'faq-empty' });
 			
-			return $empty.html ('Nothing Found');
+			return $empty.html ('Não encontrado');
 		}
         
         function generateSearchForm () {
         	
         	var $form = $('<form>', { 'class': 'faq-search' });
-        	var $input = $('<input>', { 'type': 'text', 'name': 'search', 'placeholder': 'Search by Keyword' });
+        	var $input = $('<input>', { 'type': 'text', 'name': 'search', 'placeholder': 'Digite palavras chaves' });
         	
         	$input.appendTo ($form);
         	

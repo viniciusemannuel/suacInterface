@@ -109,7 +109,7 @@
           <!-- /widget -->
           <div class="widget widget-table action-table">
             <div class="widget-header"> <i class="icon-tasks"></i>
-              <h3>Atendimentos agendados para hoje</h3>
+              <h3>Atendimentos agendados</h3>
             </div>
             <!-- /widget-header -->
             <div class="widget-content">
@@ -138,13 +138,13 @@
                   <tr>
                     <td> José Silva Marciel </td>
                     <td> Atualização de cadastro </td>
-                    <td>11/09/2014</td>
+                    <td>12/09/2014</td>
                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
                   </tr>
                   <tr>
                     <td> Francisca Gonçalves </td>
                     <td> Atualização de cadastro </td>
-                    <td>11/09/2014</td>
+                    <td>13/09/2014</td>
                     <td class="td-actions"><a href="javascript:;" class="btn btn-small btn-success"><i class="btn-icon-only icon-ok"> </i></a><a href="javascript:;" class="btn btn-danger btn-small"><i class="btn-icon-only icon-remove"> </i></a></td>
                   </tr>                
                 </tbody>
